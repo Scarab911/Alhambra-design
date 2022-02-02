@@ -1,6 +1,20 @@
+@import "../../../variables.scss";
+
 .container {
   display: flex;
   justify-content: center;
   background-color: lightcyan;
   gap: 10px;
+  padding: 15px;
+
+  div {
+    padding: 12px 16px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    &:hover {
+      background-color: $buttons-color;
+      color: #fff;
+    }
+  }
 }
