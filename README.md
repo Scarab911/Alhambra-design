@@ -11,10 +11,17 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Features
 
 - Angular
+- TypeScript
 - Scss
 - Responsive Design
 - Lazy Loading
 
-## What I have learned
+## What I have learned, repeated
+
+**Repeated**
+
+- Setting background image, [Guide](https://youtu.be/33IinMVJf-M)
+- Scss Variables
+- Importing Google Fonts
 
 - Lazy Loading

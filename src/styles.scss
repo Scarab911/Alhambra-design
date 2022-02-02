@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+// /*IMPORTS*/
+@import "./reset.scss";
+@import "./variables.scss";
+
+/*GLOBAL STYLES*/
+body {
+  font-family: $ff-roboto;
+  color: $mainText-color;
+}
+
+.btn,
+.link {
+  cursor: pointer;
+}

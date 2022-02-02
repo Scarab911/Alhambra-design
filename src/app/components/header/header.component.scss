@@ -1,0 +1,22 @@
+.container {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  .leftItems {
+    display: flex;
+    gap: 20px;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 20px;
+
+    .backBtn {
+      display: flex;
+      gap: 5px;
+    }
+  }
+}

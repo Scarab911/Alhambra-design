@@ -1,0 +1,20 @@
+.heroImage {
+  height: 400px;
+  // width: 1440px;
+  background-image: url(../../../assets/images/francesca-tosolini-4TlrOY2IyUA-unsplash.jpg);
+  background-color: lightblue;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.infoSection {
+  display: flex;
+  align-items: center;
+  background-color: lightcoral;
+  gap: 20px;
+  & > * {
+    width: 50%;
+  }
+}
