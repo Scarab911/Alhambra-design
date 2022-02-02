@@ -1,17 +1,24 @@
 <div class="container">
   <div class="leftItems">
     <div class="logo link">
-      <img src=""
+      <img src="../../../assets/images/alhambraLogo.png"
         alt="logo">
     </div>
-    <div class="logoText link">alhambra</div>
+    <div class="brand link">alhambra</div>
   </div>
 
   <div class="buttons">
-    <div class="deleteIcon btn">delete</div>
+    <div class="deleteIcon btn">
+      <fa-icon [icon]="faTrash"
+        class="bin"></fa-icon>
+      <!-- <img
+        src="../../../assets/images/Papirus-Team-Papirus-Status-User-trash-full.svg"
+        alt="delete icon"> -->
+    </div>
     <div class="backBtn btn">
-      <div>&#60;</div>
-      <div>back</div>
+      <fa-icon [icon]="faChevronLeft"
+        class="arrow"></fa-icon>
+      <div class="back">back</div>
     </div>
   </div>
 </div>

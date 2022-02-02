@@ -1,6 +1,5 @@
 .heroImage {
   height: 400px;
-  // width: 1440px;
   background-image: url(../../../assets/images/francesca-tosolini-4TlrOY2IyUA-unsplash.jpg);
   background-color: lightblue;
   background-size: cover;
@@ -16,5 +15,11 @@
   gap: 20px;
   & > * {
     width: 50%;
+  }
+}
+
+@media (max-width: "768px") {
+  .heroImage {
+    height: 200px;
   }
 }

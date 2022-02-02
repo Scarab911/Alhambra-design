@@ -14,7 +14,7 @@ import { SideFooterComponent } from './components/side-footer/side-footer.compon
 import { SideSocialsComponent } from './components/side-socials/side-socials.component';
 import { SideTagsComponent } from './components/side-tags/side-tags.component';
 import { SearchComponent } from './components/search/search.component';
-
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,13 +28,10 @@ import { SearchComponent } from './components/search/search.component';
     SideFooterComponent,
     SideSocialsComponent,
     SideTagsComponent,
-    SearchComponent
+    SearchComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
