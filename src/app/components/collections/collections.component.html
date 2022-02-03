@@ -1,3 +1,6 @@
 <div class="container">
-  <p>collections works!</p>
+  <ng-container *ngFor="let collection of allCollectionsList">
+    <app-collection-item [collection]='collection'>
+    </app-collection-item>
+  </ng-container>
 </div>

@@ -15,6 +15,8 @@ import { SideSocialsComponent } from './components/side-socials/side-socials.com
 import { SideTagsComponent } from './components/side-tags/side-tags.component';
 import { SearchComponent } from './components/search/search.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { CollectionItemComponent } from './components/collection-item/collection-item.component';
+import { FabricsItemComponent } from './components/fabrics-item/fabrics-item.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,6 +31,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     SideSocialsComponent,
     SideTagsComponent,
     SearchComponent,
+    CollectionItemComponent,
+    FabricsItemComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],

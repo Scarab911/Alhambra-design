@@ -1,6 +1,30 @@
 .container {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
-  justify-content: space-around;
+  gap: 8px;
+
+  .tag {
+    width: 109px;
+    height: 32px;
+    background: #ffffff;
+    border: 1px solid #b4b4b4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+  }
+
+  .tag1 {
+    width: 66px;
+  }
+  .tag3 {
+    width: 94px;
+  }
+  .tag4 {
+    width: 123px;
+  }
+  .tag6 {
+    width: 83px;
+  }
+  .tag7 {
+    width: 57px;
+  }
 }

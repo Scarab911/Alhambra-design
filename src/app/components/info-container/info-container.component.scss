@@ -5,16 +5,22 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .infoSection {
   display: flex;
-  align-items: center;
-  background-color: lightcoral;
-  gap: 20px;
-  & > * {
-    width: 50%;
+  margin-bottom: 32px;
+  margin-left: 42px;
+  margin-right: 59px;
+
+  .descriptionContent {
+    width: 98%;
+    margin-right: 32px;
+  }
+
+  .sideContent {
+    width: 30%;
   }
 }
 
