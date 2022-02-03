@@ -57,17 +57,29 @@
   }
 }
 
-@media (max-width: "768x") {
+@media (max-width: "768px") {
   .container {
-    margin: 0;
-
     .searchBar {
-      min-width: 200px;
+      width: 200px;
     }
 
     .filterBtn {
       margin: 0;
       color: red;
+    }
+  }
+}
+@media (max-width: "425px") {
+  .container {
+    margin: 0;
+
+    .searchBar {
+      width: 200px;
+    }
+
+    .filterBtn {
+      margin: 0;
+      color: darkblue;
     }
   }
 }
