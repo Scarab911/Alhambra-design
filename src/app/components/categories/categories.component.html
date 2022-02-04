@@ -1,5 +1,13 @@
 <div class="container">
   <div class="btn defaultBtn"
+    routerLinkActive="clickedBtn"
+    [routerLink]="['/collections']">Collections</div>
+  <div class="btn defaultBtn"
+    routerLinkActive="clickedBtn"
+    [routerLink]="['/fabric']">Fabric</div>
+</div>
+<!-- <div class="container">
+  <div class="btn defaultBtn"
     [ngClass]="collbuttonStyle"
     (click)="hitCollection()"
     [routerLink]="['/collections']">Collections</div>
@@ -7,4 +15,4 @@
     [ngClass]="fabricButtonStyle"
     (click)='hitFabric()'
     [routerLink]="['/fabric']">Fabric</div>
-</div>
+</div> -->
