@@ -11,11 +11,9 @@
     <div class="deleteIcon btn">
       <fa-icon [icon]="faTrash"
         class="bin"></fa-icon>
-      <!-- <img
-        src="../../../assets/images/Papirus-Team-Papirus-Status-User-trash-full.svg"
-        alt="delete icon"> -->
     </div>
-    <div class="backBtn btn">
+    <div class="backBtn btn"
+      [routerLink]="['/home']">
       <fa-icon [icon]="faChevronLeft"
         class="arrow"></fa-icon>
       <div class="back">back</div>

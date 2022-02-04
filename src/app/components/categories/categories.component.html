@@ -1,4 +1,10 @@
 <div class="container">
-  <div class="collectionsBtn btn">Collections</div>
-  <div class="fabricBtn btn">Fabric</div>
+  <div class="btn defaultBtn"
+    [ngClass]="collbuttonStyle"
+    (click)="hitCollection()"
+    [routerLink]="['/collections']">Collections</div>
+  <div class="btn defaultBtn"
+    [ngClass]="fabricButtonStyle"
+    (click)='hitFabric()'
+    [routerLink]="['/fabric']">Fabric</div>
 </div>
