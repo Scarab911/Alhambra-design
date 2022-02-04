@@ -3,15 +3,15 @@
 .container {
   display: flex;
   justify-content: center;
-  gap: 16px;
-  margin-bottom: 24px;
   font-size: 24px;
-  line-height: 28px;
+  gap: 0.6em;
+  margin-bottom: 1em;
+  line-height: 1.16em;
 
   .defaultBtn {
-    padding: 12px 16px;
+    padding: 0.5em 0.6em;
     border: 1px solid #b4b4b4;
-    border-radius: 25px;
+    border-radius: 1.04em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     &:hover {
@@ -23,13 +23,16 @@
       color: #fff;
     }
   }
+}
 
-  // .clickedBtn {
-  //   padding: 12px 16px;
-  //   border: 1px solid #b4b4b4;
-  //   border-radius: 25px;
-  //   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  //   background-color: $buttons-color;
-  //   color: #fff;
-  // }
+/*MEDIA*/
+@media (max-width: "768px") {
+  .container {
+    font-size: 20px;
+  }
+}
+@media (max-width: "428px") {
+  .container {
+    font-size: 16px;
+  }
 }

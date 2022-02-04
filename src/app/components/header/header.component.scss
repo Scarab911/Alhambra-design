@@ -4,9 +4,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
 
-  .leftItems {
+  .leftLogos {
     display: flex;
     align-items: center;
     margin: 15px auto 15px 32px;
@@ -47,39 +46,31 @@
 }
 
 /*MEDIA*/
-@media (max-width: "375px") {
-  .container {
-    gap: 0;
-
-    .leftItems {
-      margin-bottom: 0;
-    }
-    .buttons {
-      margin-bottom: 15px;
-    }
-  }
-}
-
-@media (max-width: "425px") {
-  .container {
-    justify-content: center;
-    align-items: center;
-    gap: 0;
-
-    .leftItems {
-      margin-left: 0;
-      margin-right: 0;
-    }
-    .buttons {
-      margin-right: 0;
-    }
-  }
-}
-
 @media (max-width: "768px") {
   .container {
-    padding: 0 10px;
     flex-wrap: wrap;
-    gap: 20px;
+    justify-content: center;
+
+    .buttons {
+      gap: 10px;
+    }
+  }
+}
+
+@media (max-width: "440px") {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+
+    .leftLogos {
+      margin: 0;
+      margin-top: 15px;
+    }
+
+    .buttons {
+      margin: 0;
+      margin-bottom: 15px;
+    }
   }
 }

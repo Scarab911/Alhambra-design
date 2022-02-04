@@ -12,14 +12,14 @@
   }
 }
 
-@media (max-width: "425px") {
+@media (max-width: "428px") {
   .container {
-    grid-template-columns: 200px;
-    margin: auto;
+    grid-template-columns: repeat(2, auto);
+    margin: 0 15px;
     justify-content: center;
   }
 }
-@media (max-width: "425px") {
+@media (max-width: "378px") {
   .container {
     grid-template-columns: 100px;
   }

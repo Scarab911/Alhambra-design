@@ -26,11 +26,11 @@
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       overflow: hidden;
       padding: 14px;
+      font-size: 16px;
+      line-height: 19px;
     }
 
     input::placeholder {
-      font-size: 16px;
-      line-height: 19px;
       color: #cacaca;
     }
 
@@ -59,27 +59,50 @@
 
 @media (max-width: "768px") {
   .container {
+    margin: 0 50px 21px 80px;
+
     .searchBar {
       width: 200px;
     }
 
     .filterBtn {
       margin: 0;
-      color: red;
     }
   }
 }
-@media (max-width: "425px") {
-  .container {
-    margin: 0;
 
-    .searchBar {
-      width: 200px;
+@media (max-width: "428px") {
+  .container {
+    margin: 0 10px 21px 10px;
+
+    .createCollectionBtn {
+      text-align: center;
+      padding: 0.5em 0.62em;
+      font-size: 12px;
+      line-height: 1.1em;
+    }
+
+    .searchContainer {
+      .searchBar {
+        font-size: 12px;
+        width: 20em;
+        height: 3em;
+        padding: 0.875em;
+        line-height: 1.1875em;
+      }
+
+      .searchBtn {
+        font-size: 18px;
+        width: 1.95em;
+        line-height: 2em;
+      }
     }
 
     .filterBtn {
       margin: 0;
-      color: darkblue;
+      width: 1.06em;
+      height: 1.06em;
+      font-size: 25px;
     }
   }
 }

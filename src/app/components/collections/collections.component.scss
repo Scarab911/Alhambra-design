@@ -8,19 +8,24 @@
 
 @media (max-width: "768px") {
   .container {
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(2, 200px);
   }
 }
 
-@media (max-width: "425px") {
+@media (max-width: "428px") {
   .container {
-    grid-template-columns: 400px;
+    gap: 10px;
     margin: auto;
     justify-content: center;
   }
 }
-@media (max-width: "425px") {
+
+@media (max-width: "376px") {
   .container {
-    grid-template-columns: 200px;
+    grid-template-columns: 250px;
   }
+  //if need more items on screens, plus need to lower height of an item in a item component
+  // .container {
+  //   grid-template-columns: repeat(3, 30%);
+  // }
 }
