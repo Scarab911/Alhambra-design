@@ -4,6 +4,11 @@ Hello I'm Paulius and this is my job interview task to replicate given design wi
 
 Link to design: [Alhambra](https://www.figma.com/file/aIhRe14jdDQsxpOTB80Qcf/Untitled?node-id=1%3A2)
 
+## Dependancies
+
+- Some components require Angular [Fortawesome](https://www.npmjs.com/package/@fortawesome/angular-fontawesome).
+Run *npm i* to instal dependancies.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
