@@ -2,18 +2,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  // {
-  //   path: '',
-  //   component: CollectionsComponent,
-  // },
-  // {
-  //   path: 'collections',
-  //   component: CollectionsComponent,
-  // },
-  // {
-  //   path: 'fabric',
-  //   component: FabricsListComponent,
-  // },
   {
     path: 'collections',
     loadChildren: () =>

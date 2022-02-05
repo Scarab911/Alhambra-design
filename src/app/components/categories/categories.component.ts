@@ -6,24 +6,24 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./categories.component.scss'],
 })
 export class CategoriesComponent implements OnInit {
-  collbuttonStyle: string = 'defaultBtn';
-  fabricButtonStyle: string = 'defaultBtn';
-  isClicked: boolean = false;
+  // collbuttonStyle: string = 'defaultBtn';
+  // fabricButtonStyle: string = 'defaultBtn';
+  // isClicked: boolean = false;
 
   constructor() {}
 
   ngOnInit(): void {}
 
-  public hitCollection(): void {
-    this.collbuttonStyle === 'defaultBtn'
-      ? (this.collbuttonStyle = 'clickedBtn')
-      : this.collbuttonStyle;
-    this.fabricButtonStyle = 'defaultBtn';
-  }
-  public hitFabric(): void {
-    this.fabricButtonStyle === 'defaultBtn'
-      ? (this.fabricButtonStyle = 'clickedBtn')
-      : this.fabricButtonStyle;
-    this.collbuttonStyle = 'defaultBtn';
-  }
+  // public hitCollection(): void {
+  //   this.collbuttonStyle === 'defaultBtn'
+  //     ? (this.collbuttonStyle = 'clickedBtn')
+  //     : this.collbuttonStyle;
+  //   this.fabricButtonStyle = 'defaultBtn';
+  // }
+  // public hitFabric(): void {
+  //   this.fabricButtonStyle === 'defaultBtn'
+  //     ? (this.fabricButtonStyle = 'clickedBtn')
+  //     : this.fabricButtonStyle;
+  //   this.collbuttonStyle = 'defaultBtn';
+  // }
 }

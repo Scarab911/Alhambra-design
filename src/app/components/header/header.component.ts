@@ -7,6 +7,7 @@ import { faChevronLeft, faTrash } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent implements OnInit {
+  //using fontawesome icons from fontawesome module
   faChevronLeft = faChevronLeft;
   faTrash = faTrash;
 
