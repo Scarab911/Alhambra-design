@@ -56,6 +56,7 @@
 
     .descriptionContent {
       width: 100%;
+      margin: 0;
     }
     .sideContent {
       width: 100%;
@@ -63,7 +64,7 @@
   }
 }
 
-@media (max-width: "768px") {
+@media (max-width: "425px") {
   .textSection {
     margin: 0 20px 0 20px;
   }
