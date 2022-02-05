@@ -7,16 +7,12 @@ import { HeaderComponent } from './components/header/header.component';
 import { InfoContainerComponent } from './components/info-container/info-container.component';
 import { CategoriesComponent } from './components/categories/categories.component';
 import { DescriptionComponent } from './components/description/description.component';
-import { CollectionsComponent } from './components/collections/collections.component';
 import { SideContentComponent } from './components/side-content/side-content.component';
 import { SideFooterComponent } from './components/side-footer/side-footer.component';
 import { SideSocialsComponent } from './components/side-socials/side-socials.component';
 import { SideTagsComponent } from './components/side-tags/side-tags.component';
 import { SearchComponent } from './components/search/search.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { CollectionItemComponent } from './components/collection-item/collection-item.component';
-import { FabricsListComponent } from './components/fabrics-list/fabrics-list.component';
-import { FabricItemComponent } from './components/fabric-item/fabric-item.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,15 +20,11 @@ import { FabricItemComponent } from './components/fabric-item/fabric-item.compon
     InfoContainerComponent,
     CategoriesComponent,
     DescriptionComponent,
-    CollectionsComponent,
     SideContentComponent,
     SideFooterComponent,
     SideSocialsComponent,
     SideTagsComponent,
     SearchComponent,
-    CollectionItemComponent,
-    FabricsListComponent,
-    FabricItemComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],

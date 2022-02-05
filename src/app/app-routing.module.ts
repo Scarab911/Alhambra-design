@@ -1,25 +1,30 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CollectionsComponent } from './components/collections/collections.component';
-import { FabricsListComponent } from './components/fabrics-list/fabrics-list.component';
 
 const routes: Routes = [
+  // {
+  //   path: '',
+  //   component: CollectionsComponent,
+  // },
+  // {
+  //   path: 'collections',
+  //   component: CollectionsComponent,
+  // },
+  // {
+  //   path: 'fabric',
+  //   component: FabricsListComponent,
+  // },
   {
     path: 'collections',
-    component: CollectionsComponent,
+    loadChildren: () =>
+      import('./collections/collections.module').then(
+        (m) => m.CollectionsModule
+      ),
   },
   {
-    path: 'fabric',
-    component: FabricsListComponent,
-  },
-  {
-    path: 'home',
-    component: CollectionsComponent,
-  },
-  {
-    path: '',
-    redirectTo: 'home',
-    pathMatch: 'full',
+    path: 'fabrics',
+    loadChildren: () =>
+      import('./fabrics/fabrics.module').then((m) => m.FabricsModule),
   },
 ];
 
