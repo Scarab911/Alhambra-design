@@ -10,22 +10,61 @@
 
 .textSection {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 32px;
   margin-left: 42px;
   margin-right: 59px;
 
   .descriptionContent {
-    width: 98%;
+    width: 73%;
     margin-right: 32px;
   }
 
   .sideContent {
-    width: 30%;
+    width: 24%;
+  }
+}
+
+@media (max-width: "1190px") {
+  .textSection {
+    .descriptionContent {
+      width: 72%;
+    }
+
+    .sideContent {
+      width: 24%;
+    }
+  }
+}
+@media (max-width: "1190px") {
+  .textSection {
+    .descriptionContent {
+      width: 71%;
+    }
+  }
+}
+@media (max-width: "768px") {
+  .heroImage {
+    height: 200px;
+  }
+  .textSection {
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 88px 0 88px;
+
+    .descriptionContent {
+      width: 100%;
+    }
+    .sideContent {
+      width: 100%;
+    }
   }
 }
 
 @media (max-width: "768px") {
-  .heroImage {
-    height: 200px;
+  .textSection {
+    margin: 0 20px 0 20px;
   }
 }
