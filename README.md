@@ -7,7 +7,7 @@ Link to design: [Alhambra](https://www.figma.com/file/aIhRe14jdDQsxpOTB80Qcf/Unt
 ## Dependancies
 
 - Some components require Angular [Fortawesome](https://www.npmjs.com/package/@fortawesome/angular-fontawesome).
-Run *npm i* to instal dependancies.
+Run `npm i` to install dependancies.
 
 ## Development server
 
