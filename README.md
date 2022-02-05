@@ -21,8 +21,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 **Learned**
 
-- Router Link Active
-- Lazy Loading
+- Router Link Active YT [Guide](https://www.youtube.com/watch?v=Np3ULAMqwNo)
+- Implementation and use of one than more module in application
+- Lazy Loading, check most of the guides on YT([Guides](https://www.youtube.com/results?search_query=lazy+loading+angular+))
 
 **Repeated**
 
@@ -30,3 +31,4 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 - Scss Variables
 - Importing Google Fonts
 - Angular Fontawesome module
+- Css Grid
